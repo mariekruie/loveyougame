@@ -1,22 +1,21 @@
 {
-  "name": "gulp-start",
+  "name": "present",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Vadym Prokopchuk",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.26.13",
+  "repository": "https://github.com/mariekruie/loveyougame.git",
+  "author": "<kryukova.marie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify-es": "^2.0.0",
-    "jquery": "^3.5.1"
+    "gulp-imagemin": "7.1.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify-es": "^3.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.43.4"
   }
 }
